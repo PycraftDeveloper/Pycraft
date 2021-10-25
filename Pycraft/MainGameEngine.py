@@ -1,3 +1,6 @@
+from numpy import unsignedinteger
+
+
 if not __name__ == "__main__":
     print("Started <Pycraft_MainGameEngine>")
     class CreateEngine:
@@ -162,9 +165,7 @@ if not __name__ == "__main__":
                                 if event.type == self.mod_Pygame__.QUIT or (event.type == self.mod_Pygame__.KEYDOWN and event.key == self.mod_Pygame__.K_ESCAPE):
                                     return None, "Undefined"
                             self.clock.tick(self.FPS)
-                    '''glGenBuffers(0, 1)
-                    glBindBuffer(GL_ARRAY_BUFFER, 0)
-                    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW)'''
+
                     Map_size = [self.Map_box[1][i]-self.Map_box[0][i] for i in range(3)]
                     max_Map_size = max(Map_size)
                     Map_size = self.G3Dscale 
@@ -240,6 +241,29 @@ if not __name__ == "__main__":
                 self.mod_OpenGL_GL_.glEnable(self.mod_OpenGL_GL_.GL_FRAMEBUFFER_SRGB)
                 self.mod_Pygame__.mouse.set_cursor(self.mod_Pygame__.SYSTEM_CURSOR_CROSSHAIR)
                 FullscreenX, FullscreenY = self.mod_Pyautogui__.size()
+
+                #dima 2021-10-25 BEGIN
+                mapVBOVertsId = self.mod_OpenGL_GL_.glGenBuffers(1)
+                vertsArr = self.mod_Numpy__.array(self.Map.vertices, 'f')
+                self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ARRAY_BUFFER, mapVBOVertsId)
+                self.mod_OpenGL_GL_.glBufferData(self.mod_OpenGL_GL_.GL_ARRAY_BUFFER, vertsArr.nbytes, vertsArr.data, self.mod_OpenGL_GL_.GL_STATIC_DRAW)
+                self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ARRAY_BUFFER, 0)
+
+                mapVBOMeshInds = []
+                for mesh in self.Map.mesh_list: 
+                    mapVBOIndsId = self.mod_OpenGL_GL_.glGenBuffers(1)
+                    facesArr = self.mod_Numpy__.array(mesh.faces, 'i')
+                    #f = open("123.txt", "a")
+                    #f.write('\n'.join(str(e) for e in mesh.faces)+'meshend\n')
+                    #f.close()
+
+                    mapVBOMeshInds.append([mapVBOIndsId, facesArr.size])
+                    self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ELEMENT_ARRAY_BUFFER, mapVBOIndsId)
+                    self.mod_OpenGL_GL_.glBufferData(self.mod_OpenGL_GL_.GL_ELEMENT_ARRAY_BUFFER, facesArr.nbytes, facesArr.data, self.mod_OpenGL_GL_.GL_STATIC_DRAW)
+                    self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ELEMENT_ARRAY_BUFFER, 0)
+                #dima 2021-10-25 END
+
+
                 while True:
                     eFPS = self.clock.get_fps()
                     aFPS += eFPS
@@ -444,7 +468,32 @@ if not __name__ == "__main__":
                     self.mod_MapTextureUtil__.MapTexture.DrawMapTexture(self)
 
                     self.mod_OpenGL_GL_.glEnable(self.mod_OpenGL_GL_.GL_DEPTH_TEST)
-                    self.mod_GetWorldVertex__.GetMapVertices.MapModel(self)
+                    
+                    #dima 2021-10-25 BEGIN
+                    self.mod_OpenGL_GL_.glPushMatrix() 
+                    self.mod_OpenGL_GL_.glScalef(*self.Map_scale) 
+                    self.mod_OpenGL_GL_.glTranslatef(*self.Map_trans)          
+
+
+                    for meshVBO in mapVBOMeshInds: 
+                        self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ARRAY_BUFFER, mapVBOVertsId)
+                        self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ELEMENT_ARRAY_BUFFER, meshVBO[0])
+                        
+                        self.mod_OpenGL_GL_.glVertexPointer(3, self.mod_OpenGL_GL_.GL_FLOAT, vertsArr.itemsize * 3, None);
+                        self.mod_OpenGL_GL_.glEnableClientState(self.mod_OpenGL_GL_.GL_VERTEX_ARRAY);
+
+                        self.mod_OpenGL_GL_.glDrawElements(self.mod_OpenGL_GL_.GL_TRIANGLES, meshVBO[1], self.mod_OpenGL_GL_.GL_UNSIGNED_INT, None); 
+                        
+                        self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ELEMENT_ARRAY_BUFFER, 0)
+                        self.mod_OpenGL_GL_.glBindBuffer(self.mod_OpenGL_GL_.GL_ARRAY_BUFFER, 0)
+                        
+                        self.mod_OpenGL_GL_.glDisableClientState(self.mod_OpenGL_GL_.GL_VERTEX_ARRAY);
+
+                    self.mod_OpenGL_GL_.glPopMatrix()
+
+                    #self.mod_GetWorldVertex__.GetMapVertices.MapModel(self)
+                    #dima 2021-10-25 END
+
                     if stop1 == False:
                         counterForWeather = 1
                         stop1 = True
