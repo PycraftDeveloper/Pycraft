@@ -113,7 +113,7 @@ We recommend creating a shortcut for the "main.py" file too so it's easier to lo
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) 
 
-- Thomas Jebbo (PycraftDeveloper) @ www.github.com/PycraftDeveloper <br />
+- Tom Jebbo (PycraftDeveloper) @ www.github.com/PycraftDeveloper <br />
 - Count of Freshness Traversal @ www.twitter.com/DmitryChunikhin <br />
 - Dogukan Demir (demirdogukan) @ www.github.com/demirdogukan <br />
 - Henri Post (HenryFBP) @ www.github.com/HenryFBP <br />
