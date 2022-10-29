@@ -142,68 +142,20 @@ _Disclaimer; unfortunately, lots of these python modules (first and third party)
 
 Changes
 ====================
-Pycraft v9.5.0 is now live! Here is a list of all the added features to this major update: <br />
+Pycraft v9.5.2 is now live! Here is a list of all the added features to this minor update: <br />
 
-* Feature: This update features the new start-up animation by Dogukan Demir.
-* Feature: This update also includes transitional effects between the different GUIs, which can be seen when navigating through different GUIs
-* Feature: Basic collisions have been added to Pycraft, with better implementations coming after Pycraft v9.4.0
+* PEP8: We have tweaked more function, procedure, class and variable names to bring them in line with the PEP8 standard, this is in line with a current project to introduce the PEP8 standards in Pycraft.
+* Feature: We have deprecated numerous variables and keys in save data that were no longer needed.
+* Feature: We have added "Registry.py" to Pycraft that takes charge of initialising a lot of the key variables used throughout Pycraft, shortening the "main.py" module considerably.
+* Feature: We have tweaked and improved file loading in Pycraft so that if your saved data has readable keys, we can recover those without resetting everything in the save.
+* Feature: We have tweaked the sequence of GUIs that appear on start-up to make them make more sense, putting the start-up animation before the theme selector menu.
+* Feature: We have added the theme selection menu and start-up animation into the core 2D display functionality module with means that we can more easily tweak them later on if we need to.
+* Feature: We have improved in-game events, especially focused on movement to make them shorter and more user friendly.
+* Feature: We have altered the jump animation for Pycraft to make it more realistic. We have also re-added the ability to hold the space bar to continuously jump.
+* Feature: We have made several improvements to the joystick control in game, fixing bugs and allowing for better menu navigation and mouse control. We have also made freeing the mouse from Pycraft easier.
+* Feature: We have consolidated some of the threads in Pycraft to make it less complex and easier to use.
 
-* Feature: Screen animation/transitions have been added throughout the project. This was showcased in Pycraft v9.4.1 but now works with the Pycraft v9.5.0 update.
-* Feature: Wide range support for controllers has been added, you can now use a controller seamlessly throughout the game (currently only PS4 controllers have been tested but that's only due to hardware limitations).
-* Performance: The inventory and map sections have had some serious performance optimisations, up to 2x in frame rates there now compared to Pycraft v9.4.0.
-* Feature: The adaptive mode AI style performance adjustment utility has been re-written and now performs much better.
-* Bug-Fix: The map icon in the map GUI now has transparency and a lightly improved resolution.
-
-* Feature: The game engine has been completely redesigned, now with an additional utility file ("GameEngineUtils.py") that helps to make the project more modular. This was done as part of making the game engine compatible with shadow mapping, the focus of this update. At the same time, we have improved other game engine functions and improved performance, and fixed numerous bugs some of which are listed below:
-* Bug-Fix: You can now move in the direction of the camera with either WASD or the controller.
-* Bug-Fix: The camera movement is not restricted to the size of the window.
-* Bug-Fix: The screenshot functionality for the inventory now supports multiple monitors (* although for now this functionality is windowed mode only)
-* Feature: Accessing the inventory and map functions from in game are now significantly faster and does not take you back to the load screen.
-* Feature: All of Pycraft's functions now have error handling in some form, with the most common method now closing the program and displaying a suitable error message onscreen.
-* Feature: The entire adaptive mode functionality has been reprogrammed and is now much better at changing the performance of the game to balance performance and detail.
-* Bug-Fix: The home screen had numerous issues with the bottom of the screen, this has now been fixed and the messages function is cleaned up. Also, on the home screen, the name has changed from "Tom Jebbo" to PycraftDev as that is the username that we use for my Pycraft related accounts - avoiding confusion.
-* Identified-Bugs: There is an issue with changing to full-screen in game, when pressing any keys or interacting with the window will make an 'error sound' although no error is raised and the project runs fine.
-* Identified-Bugs: There is an issue with moving backwards and left using the controller or keyboard, this will be fixed before the full release of Pycraft v9.5.0.
-
-* Feature: The game engine now has had a sky change, instead of using 6 unique textures in a cube style, we now use one texture and a sphere to reduce the complexity and number of files Pycraft uses.
-* Feature: The game engine has now got a skysphere (that is a spherical skybox) that changes with time. We have an 8-minute day, with a 2-minute sunset, then an 8-minute night with a 2-minute sunrise, this means 1 hour is 50 seconds long in real time.
-* Feature: The game engine now includes celestial entities, in the form of the sun and moon, which are in sync with the day and night periods and are the light source through the day/night cycles.
-* Feature: The game engine now includes a fog effect, this is not noticeable unless you travel really far at the moment, with fog starting at 1200m and ending at 1600m, this is going to be much more noticeable when the final map for the game is released, which will be much larger than it is right now and take advantage of this effect. Additionally, this will be edited in the next update to change based on the weather conditions.
-* Feature: The game engine now has dynamic shadows that adjust based on the time of day, with more harsher shadows coming in the night to reflect the change in lighting.
-* Bug-Fix: The benchmark function now works completely after issues with the OpenGL section and trying to use deprecated functions.
-* Bug-Fix: Many issues with the installer are being fixed in the next few updates, if you identify one, please feel free to let us know so we can fix it!
-* Bug-Fix: Many improvements have been made to the game engine to improve the quality of the shadows, which are now much less glitchy.
-* Performance: Yet more performance improvements have been made to Pycraft, in particular in the game engine section.
-
-* Feature: The game now includes the start of a weather implementation, including procedurally generated clouds that move around the player. The clouds and weather will change randomly through the day/night, based on the rough relative probabilities of that respective weather in the UK. They also employ the fog effect we added to the terrain last time and have variable height based on the weather. Additionally, the fog throughout the game now varies based on the current weather, so on a rainy day there will be more fog.
-* Feature: The entire project has started to undergo restructuring to bring it in line with some of the PEP-8 standards.
-* Bug-Fix: Numerous issues and bugs have been fixed regarding the benchmark functionality and exiting the benchmark now is much friendlier and any errors that used to be raised have now been fixed.
-* Bug-Fix: More work has been done on the installer to improve its functionality, expect more improvements and eventual Linux compatibility there.
-* Identified-Bugs: After toggling between full-screen in the 2D engine of Pycraft (which uses Pygame) the window cannot be resized on some systems, even with the correct flags.
-* Identified-Bugs: The installer will render incorrectly if the user has chosen to scale their displays.
-* Identified-Bugs: The cloud noise file for Pycraft (Rand_noise.png) is only generated once and the file is never re-written unless it's deleted.
-* Bug-Fix: we are improving compatibility with non-Nvidia GPUs as the GLSL programmes can occasionally incur errors due to minor changes to how different GPUs accept syntaxes.
-
-* Feature: The day and night has had some work done, the orbital path of the sun and moon in altered, simplified and along with many other formulae for the GameEngine.py and GameEngineUtils.py modules been simplified and tidied up a bit.
-* Feature: Introducing storms, thunder and lightning has been added to the storm section of Pycraft under the 'rain.heavy.thundery' tag.
-* Feature: The probabilities of different weather events ( as well as their duration) has been tweaked in Pycraft.
-* Feature: Added a rain sound effect that plays when the weather tag is not 'sunny'.
-* Feature: Adjusted how audio (sound and music) is handed in Pycraft slightly.
-* Performance: We have made many more performance improvements to Pycraft since Pycraft v9.4.4, including the introduction of mip-maps for textures in OpenGL
-* Feature: There have been tweaks to the shadow mapping function so now there is a greater variation between day and night and different weather events.
-* Feature: All of the commonly used functions in Pycraft's 2D engine have been added to one function in DisplayUtils.py to improve upgradability and to simplify other areas of the project.
-* Identified-Bugs: After toggling between full-screen in the 2D engine of Pycraft (which uses Pygame) the window cannot be resized on some systems, even with the correct flags.
-* Identified-Bugs: The installer will render incorrectly if the user has chosen to scale their displays.
-* Bug-Fix: The cloud noise file for Pycraft (Rand_noise.png) is only generated once and the file is never re-written unless it's deleted.
-* Feature: We have started work on converting most of the audio files to the same format (.ogg) and suitably giving accreditation in the credits GUI and later here.
-
-* Bug-Fix: Improved the joystick implementation and fixed issues that occurred when applying pep8 to Pycraft.
-* Feature: Introducing rain particles to Pycraft, they are randomly coloured and are the final distinctive feature of the weather implementation in Pycraft!
-* Feature: Introducing the concept of multi-texture terrain into Pycraft, for now there is a grass and rock texture with more complex use cases for this coming soon.
-* Feature: We now blend (linearly interpolate) between the different weather events in Pycraft, including the colour and height of the clouds and transparency of the skysphere based on different weather events.
-* Feature: We have improved the installer for Pycraft and work on adding Linux compatibility is continuing. We have updated the installer to be compatible with Pycraft v9.5.0
-
-Again, feedback would be much appreciated this update was released on; 19/07/2022 (UK date; DD/MM/YYYY). As always, we hope you enjoy this new release and feel free to leave feedback.
+Again, feedback would be much appreciated this update was released on; 14/08/2022 (UK date; DD/MM/YYYY). As always, we hope you enjoy this new release and feel free to leave feedback.
 
 Understanding the release notes
 ====================
