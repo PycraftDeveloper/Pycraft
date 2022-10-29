@@ -9,30 +9,29 @@ Made with Python 3 64-bit and Microsoft Visual Studio Code.
 ![](https://img.shields.io/github/license/PycraftDeveloper/Pycraft) ![](https://img.shields.io/github/stars/PycraftDeveloper/Pycraft) ![](https://img.shields.io/github/forks/PycraftDeveloper/Pycraft) ![](https://img.shields.io/github/issues/PycraftDeveloper/Pycraft) ![GitHub all releases](https://img.shields.io/github/downloads/PycraftDeveloper/Pycraft/total) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PycraftDeveloper/Pycraft) ![](https://img.shields.io/pypi/wheel/python-pycraft) ![GitHub repo size](https://img.shields.io/github/repo-size/PycraftDeveloper/Pycraft) ![Discord](https://img.shields.io/discord/929750166255321138)
 
 ## Contents
-This is a guide of where some of the sections of this README have gone, as well as useful links to other documents.
 
-> * [About](https://github.com/PycraftDeveloper/Pycraft#about)
+> * [About](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#about)
 > * [Preview Video](https://youtu.be/shAprkrcaiI)
-> * [Setup](https://github.com/PycraftDeveloper/Pycraft#setup)
-> * * [Installing the project from GitHub (Method 1)](https://github.com/PycraftDeveloper/Pycraft#installing-the-project-from-github-method-1)
-> * * [Installing the project from GitHub (Method 2)](https://github.com/PycraftDeveloper/Pycraft#installing-the-project-from-github-method-2)
-> * * [Installing from PyPi (preferred)](https://github.com/PycraftDeveloper/Pycraft#installing-from-pypi-preferred)
-> * * [Installing using Pipenv](https://github.com/PycraftDeveloper/Pycraft#installing-using-pipenv)
-> * [Running The Program](https://github.com/PycraftDeveloper/Pycraft#running-the-program)
-> * [Credits](https://github.com/PycraftDeveloper/Pycraft#credits)
-> * [Uncompiled Pycraft Dependancies](https://github.com/PycraftDeveloper/Pycraft#uncompiled-pycraft-dependencies-)
-> * [Changes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v0.9.6-0#changes)
-> * [Understanding the Release Notes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v0.9.5#understanding-the-release-notes)
-> * [Input Mapping](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v0.9.5#input-mapping)
-> * [Our Update Policy](https://github.com/PycraftDeveloper/Pycraft#our-update-policy)
-> * [Version Naming](https://github.com/PycraftDeveloper/Pycraft#version-naming)
-> * [Releases](https://github.com/PycraftDeveloper/Pycraft#releases)
-> * [Other Sources](https://github.com/PycraftDeveloper/Pycraft#other-sources)
-> * [Final Notices](https://github.com/PycraftDeveloper/Pycraft#final-notices)
+> * [Setup](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#setup)
+> * * [Installing the project from GitHub (Method 1)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#installing-the-project-from-github-method-1)
+> * * [Installing the project from GitHub (Method 2)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#installing-the-project-from-github-method-2)
+> * * [Installing from PyPi (preferred)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#installing-from-pypi-preferred)
+> * * [Installing using Pipenv](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#installing-using-pipenv)
+> * [Running The Program](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#running-the-program)
+> * [Credits](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#credits)
+> * [Uncompiled Pycraft Dependancies](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#uncompiled-pycraft-dependencies-)
+> * [Changes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#changes)
+> * [Understanding the Release Notes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#understanding-the-release-notes)
+> * [Input Mapping](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#input-mapping)
+> * [Our Update Policy](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#our-update-policy)
+> * [Version Naming](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#version-naming)
+> * [Releases](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#releases)
+> * [Other Sources](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#other-sources)
+> * [Final Notices](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.1#final-notices)
 
-> * [Update Timeline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v0.9.5/Update_Timeline.md#update-timeline)
-> * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v0.9.5/Planned_Storyline.md#the-planned-storyline)
-> * [Sound Preview](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v0.9.5/Sound_Preview.md#pycrafts-sound-files---preview-1)
+> * [Update Timeline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.1/Update_Timeline.md#update-timeline)
+> * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.1/Planned_Storyline.md#the-planned-storyline)
+> * [Sound Preview](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.1/Sound_Preview.md#pycrafts-sound-files---preview-1)
 
 > * [The Documentation for Pycraft (Read-The-Docs)](https://python-pycraft.readthedocs.io/en/latest/)
 > * [The Documentation for Pycraft (GitHub Wikis)](https://github.com/PycraftDeveloper/Pycraft/wiki)
@@ -171,11 +170,11 @@ pip is usually installed by default when installing Python with most versions.
 _Disclaimer; unfortunately, lots of these python modules (first and third party) can require some external modules that will be installed during the installing process of the above modules, unfortunately this makes it really difficult to give credit to those modules, if you have any recommendations, please contact me appropriately._
 
 ## Changes
-Pycraft v0.9.6-0 is now live! Here is a list of all the added features to this minor update: <br />
+Pycraft v9.5.1 is now live! Here is a list of all the added features to this minor update: <br />
 
 * Feature: There have been some major changes and improvements to how Pycraft checks to make sure all the resources it needs are present and in the correct location, the process is now faster and it’s easier to add more files later on and has been improved to include all the required files in Pycraft (some were not checked before).
 * Feature & Performance: The 'noise' module for generating Perlin noise in Pycraft has now been removed, opting for a solution that is faster, more efficient and also supported on newer hardware and more operating systems.
-* Bug-Fix: Numerous improvements and other small bug-fixes that were quickly patched in Pycraft v0.9.5 have been properly patched now.
+* Bug-Fix: Numerous improvements and other small bug-fixes that were quickly patched in Pycraft v9.5.0 have been properly patched now.
 * Feature: Some of the folders used by Pycraft have been renamed to make them more user friendly.
 * Feature: Some of the core variables for Pycraft have been renamed to bring them in-line with the PEP8 specification, this is a small part of the gradual transition to supporting most of the PEP8 standards in Pycraft.
 
