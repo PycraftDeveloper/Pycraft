@@ -11,24 +11,24 @@ Made with Python 3 64-bit and Microsoft Visual Studio Code.
 ## Contents
 This is a guide of where some of the sections of this README have gone, as well as useful links to other documents.
 
-> * [About](https://github.com/PycraftDeveloper/Pycraft#about)
+> * [About](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#about)
 > * [Preview Video](https://youtu.be/shAprkrcaiI)
-> * [Setup](https://github.com/PycraftDeveloper/Pycraft#setup)
-> * * [Installing the project from GitHub (Method 1)](https://github.com/PycraftDeveloper/Pycraft#installing-the-project-from-github-method-1)
-> * * [Installing the project from GitHub (Method 2)](https://github.com/PycraftDeveloper/Pycraft#installing-the-project-from-github-method-2)
-> * * [Installing from PyPi (preferred)](https://github.com/PycraftDeveloper/Pycraft#installing-from-pypi-preferred)
-> * * [Installing using Pipenv](https://github.com/PycraftDeveloper/Pycraft#installing-using-pipenv)
-> * [Running The Program](https://github.com/PycraftDeveloper/Pycraft#running-the-program)
-> * [Credits](https://github.com/PycraftDeveloper/Pycraft#credits)
-> * [Uncompiled Pycraft Dependancies](https://github.com/PycraftDeveloper/Pycraft#uncompiled-pycraft-dependencies-)
-> * [Changes](https://github.com/PycraftDeveloper/Pycraft#changes)
+> * [Setup](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#setup)
+> * * [Installing the project from GitHub (Method 1)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-the-project-from-github-method-1)
+> * * [Installing the project from GitHub (Method 2)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-the-project-from-github-method-2)
+> * * [Installing from PyPi (preferred)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-from-pypi-preferred)
+> * * [Installing using Pipenv](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-using-pipenv)
+> * [Running The Program](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#running-the-program)
+> * [Credits](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#credits)
+> * [Uncompiled Pycraft Dependancies](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#uncompiled-pycraft-dependencies-)
+> * [Changes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#changes)
 > * [Understanding the Release Notes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#understanding-the-release-notes)
 > * [Input Mapping](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#input-mapping)
-> * [Our Update Policy](https://github.com/PycraftDeveloper/Pycraft#our-update-policy)
-> * [Version Naming](https://github.com/PycraftDeveloper/Pycraft#version-naming)
-> * [Releases](https://github.com/PycraftDeveloper/Pycraft#releases)
-> * [Other Sources](https://github.com/PycraftDeveloper/Pycraft#other-sources)
-> * [Final Notices](https://github.com/PycraftDeveloper/Pycraft#final-notices)
+> * [Our Update Policy](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#our-update-policy)
+> * [Version Naming](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#version-naming)
+> * [Releases](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#releases)
+> * [Other Sources](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#other-sources)
+> * [Final Notices](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#final-notices)
 
 > * [Update Timeline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.0/Update_Timeline.md#update-timeline)
 > * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.0/Planned_Storyline.md#the-planned-storyline)
@@ -114,7 +114,7 @@ We recommend creating a shortcut for the "main.py" file too so it's easier to lo
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) 
 
-- Thomas Jebbo (PycraftDeveloper) @ www.github.com/PycraftDeveloper <br />
+- Tom Jebbo (PycraftDeveloper) @ www.github.com/PycraftDeveloper <br />
 - Count of Freshness Traversal @ www.twitter.com/DmitryChunikhin <br />
 - Dogukan Demir (demirdogukan) @ www.github.com/demirdogukan <br />
 - Henri Post (HenryFBP) @ www.github.com/HenryFBP <br />
@@ -179,7 +179,7 @@ Pycraft v9.5.0 is now live! Here is a list of all the added features to this maj
 * Feature: This update also includes transitional effects between the different GUIs, which can be seen when navigating through different GUIs
 * Feature: Basic collisions have been added to Pycraft, with better implementations coming after Pycraft v9.4.0
 
-* Feature: Screen animation/transitions have been added throughout the project. This was showcased in Pycraft v9.5.1 but now works with the Pycraft v9.4.0 update.
+* Feature: Screen animation/transitions have been added throughout the project. This was showcased in Pycraft v9.4.1 but now works with the Pycraft v9.5.0 update.
 * Feature: Wide range support for controllers has been added, you can now use a controller seamlessly throughout the game (currently only PS4 controllers have been tested but that's only due to hardware limitations).
 * Performance: The inventory and map sections have had some serious performance optimisations, up to 2x in frame rates there now compared to Pycraft v9.4.0.
 * Feature: The adaptive mode AI style performance adjustment utility has been re-written and now performs much better.
@@ -220,7 +220,7 @@ Pycraft v9.5.0 is now live! Here is a list of all the added features to this maj
 * Feature: The probabilities of different weather events ( as well as their duration) has been tweaked in Pycraft.
 * Feature: Added a rain sound effect that plays when the weather tag is not 'sunny'.
 * Feature: Adjusted how audio (sound and music) is handed in Pycraft slightly.
-* Performance: We have made many more performance improvements to Pycraft since Pycraft v9.5.0-4, including the introduction of mip-maps for textures in OpenGL
+* Performance: We have made many more performance improvements to Pycraft since Pycraft v9.4.4, including the introduction of mip-maps for textures in OpenGL
 * Feature: There have been tweaks to the shadow mapping function so now there is a greater variation between day and night and different weather events.
 * Feature: All of the commonly used functions in Pycraft's 2D engine have been added to one function in DisplayUtils.py to improve upgradability and to simplify other areas of the project.
 * Identified-Bugs: After toggling between full-screen in the 2D engine of Pycraft (which uses Pygame) the window cannot be resized on some systems, even with the correct flags.
