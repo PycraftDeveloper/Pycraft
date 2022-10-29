@@ -304,7 +304,7 @@ class Startup:
             self.total_vertices = 0
             self.updated = False
             self.use_mouse_input = True
-            self.version = "0.9.6-0"
+            self.version = "9.5.1"
             self.wnd = None
             self.x = 0
             self.y = 0
@@ -650,7 +650,7 @@ if __name__ == "__main__":
 
 
 def QueryVersion():
-    return "pycraft v0.9.6-0"
+    return "pycraft v9.5.1"
 
 
 def start():
