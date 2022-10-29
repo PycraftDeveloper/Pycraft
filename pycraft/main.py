@@ -527,7 +527,7 @@ if __name__ == "__main__":
 
 
 def QueryVersion():
-    return "pycraft v0.9.6-2.0"
+    return "pycraft v9.5.3"
 
 
 def start():
