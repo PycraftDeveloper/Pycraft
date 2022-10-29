@@ -1,7 +1,8 @@
 Python-Pycraft's documentation
 ====================
 
-Pycraft is an OpenGL, open world, video game made entirely with Python. This project is a game to shed some light on OpenGL programming in Python as it is a seldom touched area of Python's vast amount of uses. Feel free to give this project a run, and message us if you have any feedback! <br />
+Pycraft is an OpenGL, open world, video game made entirely with Python. This project is a game to shed some light on OpenGL programming in Python as it is a seldom touched area of Python's vast amount of uses. Feel free to give this project a run, and message us if you have any feedback!
+
 Made with Python 3 64-bit and Microsoft Visual Studio Code.
 
 Contents:
