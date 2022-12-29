@@ -2,8 +2,8 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Attached below is a table of all the different versions of Pycraft that can be found under the Branches section here: https://github.com/PycraftDeveloper/Pycraft/branches
+This table represents which versions in the Branches section of the repository currently support security updates. The general rule is that the most recent non-developer release of Pycraft, and the most recent developer release of Pycraft will be supporting security patches, and any changes to improve security in these versions will be carried forward for as long as the vulnerability is present in newer supported versions and releases of Pycraft.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -28,12 +28,12 @@ If you discover a security vulnerability, please make us aware of the problem as
 
 ## Resolving a Vulnerability
 
-Depending on if the "security (caution)" or "security (warning)" label is used will determine the scale and speed of our responce.
+Depending on if the "security (caution)" or "security (warning)" label is used will determine the scale and speed of our response.
 If the problem* currently exists on a version of Pycraft we support security patches on, then we will:
 * For the "caution" flag, add a notice to the ReadMe at the top, and issue a patch for this in the next developer version of Pycraft.
-* For the "warning" flag, we will immediately start work on a fix for this problem for that version of Pycraft and all versions that preceed it where that vulnerability is present.
+* For the "warning" flag, we will immediately start work on a fix for this problem for that version of Pycraft and all versions that precede it where that vulnerability is present.
 
-If the problem* currently exists on a version of Pycraft we dont support security patches on, then we will:
+If the problem* currently exists on a version of Pycraft we don’t support security patches on, then we will:
 * In most cases issue a notice telling the user to avoid this version of Pycraft and give them a link to the latest safe version of Pycraft if one is available.
 * In extreme cases we will either make changes to the source code to correct the problem, or we will make that version of Pycraft no longer available for download off our sites.
 
