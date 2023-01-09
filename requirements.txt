@@ -24,7 +24,7 @@ pyperclip==1.8.2
 PyRect==0.2.0
 pyrr==0.10.3
 PyScreeze==0.1.28
-PySDL2==0.9.12
+PySDL2==0.9.15
 python-dateutil==2.8.2
 pytweening==1.0.4
 PyWavefront==1.3.3
