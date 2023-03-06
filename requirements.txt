@@ -16,7 +16,7 @@ py-cpuinfo==8.0.0
 PyAutoGUI==0.9.53
 pygame==2.1.2
 PyGetWindow==0.0.9
-pyglet==1.5.26
+pyglet==2.0.5
 pyjoystick==1.2.4
 PyMsgBox==1.0.9
 pyparsing==3.0.9
