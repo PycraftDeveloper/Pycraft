@@ -7,11 +7,9 @@ This table represents which versions in the Branches section of the repository c
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 9.5.0   | :white_check_mark: |
-| 9.5.1   | :x:                |
-| 9.5.3   | :x:                |
-| 9.5.4   | :x:                |
-| 9.5.5   | :white_check_mark: |
+| master   | :white_check_mark: |
+| main   | :white_check_mark: |
+| dev   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
