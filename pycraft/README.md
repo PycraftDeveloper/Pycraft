@@ -2,37 +2,39 @@
   <a href="https://github.com/PycraftDeveloper" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/81379254/154152710-694ce1f7-44e0-47fd-bbca-988093628e70.svg" alt="my banner"></a>
 </p>
 
-Pycraft is an OpenGL, open world, video game made entirely with Python. This project is a game to shed some light on OpenGL programming in Python as it is a seldom touched area of Python's vast amount of uses. Feel free to give this project a run, and message us if you have any feedback! <br />
+Pycraft is an OpenGL, open world, video game made with Python. This project is a game to shed some light on OpenGL programming in Python as it is a seldom touched area of Python's vast amount of uses. Feel free to give this project a run, and message us if you have any feedback! <br />
 Made with Python 3 64-bit and Microsoft Visual Studio Code.
 
 [![](https://img.shields.io/badge/python-3.10-blue.svg)](www.python.org/downloads/release/python-3100) [![](https://img.shields.io/badge/python-3.9-blue.svg)](www.python.org/downloads/release/python-390) [![](https://img.shields.io/badge/python-3.8-blue.svg)](www.python.org/downloads/release/python-380) [![](https://img.shields.io/badge/python-3.7-blue.svg)](www.python.org/downloads/release/python-370) <br />
 ![](https://img.shields.io/github/license/PycraftDeveloper/Pycraft) ![](https://img.shields.io/github/stars/PycraftDeveloper/Pycraft) ![](https://img.shields.io/github/forks/PycraftDeveloper/Pycraft) ![](https://img.shields.io/github/issues/PycraftDeveloper/Pycraft) ![GitHub all releases](https://img.shields.io/github/downloads/PycraftDeveloper/Pycraft/total) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PycraftDeveloper/Pycraft) ![](https://img.shields.io/pypi/wheel/python-pycraft) ![GitHub repo size](https://img.shields.io/github/repo-size/PycraftDeveloper/Pycraft) ![Discord](https://img.shields.io/discord/929750166255321138)
 
+This is Pycraft v9.5.0!
+
 ## Contents
 This is a guide of where some of the sections of this README have gone, as well as useful links to other documents.
 
-> * [About](https://github.com/PycraftDeveloper/Pycraft#about)
+> * [About](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#about)
 > * [Preview Video](https://youtu.be/shAprkrcaiI)
-> * [Setup](https://github.com/PycraftDeveloper/Pycraft#setup)
-> * * [Installing the project from GitHub (Method 1)](https://github.com/PycraftDeveloper/Pycraft#installing-the-project-from-github-method-1)
-> * * [Installing the project from GitHub (Method 2)](https://github.com/PycraftDeveloper/Pycraft#installing-the-project-from-github-method-2)
-> * * [Installing from PyPi (preferred)](https://github.com/PycraftDeveloper/Pycraft#installing-from-pypi-preferred)
-> * * [Installing using Pipenv](https://github.com/PycraftDeveloper/Pycraft#installing-using-pipenv)
-> * [Running The Program](https://github.com/PycraftDeveloper/Pycraft#running-the-program)
-> * [Credits](https://github.com/PycraftDeveloper/Pycraft#credits)
-> * [Uncompiled Pycraft Dependancies](https://github.com/PycraftDeveloper/Pycraft#uncompiled-pycraft-dependencies-)
-> * [Changes](https://github.com/PycraftDeveloper/Pycraft#changes)
-> * [Understanding the Release Notes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v0.9.5#understanding-the-release-notes)
-> * [Input Mapping](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v0.9.5#input-mapping)
-> * [Our Update Policy](https://github.com/PycraftDeveloper/Pycraft#our-update-policy)
-> * [Version Naming](https://github.com/PycraftDeveloper/Pycraft#version-naming)
-> * [Releases](https://github.com/PycraftDeveloper/Pycraft#releases)
-> * [Other Sources](https://github.com/PycraftDeveloper/Pycraft#other-sources)
-> * [Final Notices](https://github.com/PycraftDeveloper/Pycraft#final-notices)
+> * [Setup](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#setup)
+> * * [Installing the project from GitHub (Method 1)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-the-project-from-github-method-1)
+> * * [Installing the project from GitHub (Method 2)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-the-project-from-github-method-2)
+> * * [Installing from PyPi (preferred)](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-from-pypi-preferred)
+> * * [Installing using Pipenv](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#installing-using-pipenv)
+> * [Running The Program](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#running-the-program)
+> * [Credits](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#credits)
+> * [Uncompiled Pycraft Dependancies](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#uncompiled-pycraft-dependencies-)
+> * [Changes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#changes)
+> * [Understanding the Release Notes](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#understanding-the-release-notes)
+> * [Input Mapping](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#input-mapping)
+> * [Our Update Policy](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#our-update-policy)
+> * [Version Naming](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#version-naming)
+> * [Releases](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#releases)
+> * [Other Sources](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#other-sources)
+> * [Final Notices](https://github.com/PycraftDeveloper/Pycraft/tree/Pycraft-v9.5.0#final-notices)
 
-> * [Update Timeline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v0.9.5/Update_Timeline.md#update-timeline)
-> * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v0.9.5/Planned_Storyline.md#the-planned-storyline)
-> * [Sound Preview](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v0.9.5/Sound_Preview.md#pycrafts-sound-files---preview-1)
+> * [Update Timeline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.0/Update_Timeline.md#update-timeline)
+> * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.0/Planned_Storyline.md#the-planned-storyline)
+> * [Sound Preview](https://github.com/PycraftDeveloper/Pycraft/blob/Pycraft-v9.5.0/Sound_Preview.md#pycrafts-sound-files---preview-1)
 
 > * [The Documentation for Pycraft (Read-The-Docs)](https://python-pycraft.readthedocs.io/en/latest/)
 > * [The Documentation for Pycraft (GitHub Wikis)](https://github.com/PycraftDeveloper/Pycraft/wiki)
@@ -114,7 +116,7 @@ We recommend creating a shortcut for the "main.py" file too so it's easier to lo
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) 
 
-- Thomas Jebbo (PycraftDeveloper) @ www.github.com/PycraftDeveloper <br />
+- Tom Jebbo (PycraftDeveloper) @ www.github.com/PycraftDeveloper <br />
 - Count of Freshness Traversal @ www.twitter.com/DmitryChunikhin <br />
 - Dogukan Demir (demirdogukan) @ www.github.com/demirdogukan <br />
 - Henri Post (HenryFBP) @ www.github.com/HenryFBP <br />
@@ -173,15 +175,15 @@ pip is usually installed by default when installing Python with most versions.
 _Disclaimer; unfortunately, lots of these python modules (first and third party) can require some external modules that will be installed during the installing process of the above modules, unfortunately this makes it really difficult to give credit to those modules, if you have any recommendations, please contact me appropriately._
 
 ## Changes
-Pycraft v0.9.5 is now live! Here is a list of all the added features to this major update: <br />
+Pycraft v9.5.0 is now live! Here is a list of all the added features to this major update: <br />
 
 * Feature: This update features the new start-up animation by Dogukan Demir.
 * Feature: This update also includes transitional effects between the different GUIs, which can be seen when navigating through different GUIs
-* Feature: Basic collisions have been added to Pycraft, with better implementations coming after Pycraft v0.9.4
+* Feature: Basic collisions have been added to Pycraft, with better implementations coming after Pycraft v9.4.0
 
-* Feature: Screen animation/transitions have been added throughout the project. This was showcased in Pycraft v0.9.5-0 but now works with the Pycraft v0.9.4 update.
+* Feature: Screen animation/transitions have been added throughout the project. This was showcased in Pycraft v9.4.1 but now works with the Pycraft v9.5.0 update.
 * Feature: Wide range support for controllers has been added, you can now use a controller seamlessly throughout the game (currently only PS4 controllers have been tested but that's only due to hardware limitations).
-* Performance: The inventory and map sections have had some serious performance optimisations, up to 2x in frame rates there now compared to Pycraft v0.9.4.
+* Performance: The inventory and map sections have had some serious performance optimisations, up to 2x in frame rates there now compared to Pycraft v9.4.0.
 * Feature: The adaptive mode AI style performance adjustment utility has been re-written and now performs much better.
 * Bug-Fix: The map icon in the map GUI now has transparency and a lightly improved resolution.
 
@@ -194,7 +196,7 @@ Pycraft v0.9.5 is now live! Here is a list of all the added features to this maj
 * Feature: The entire adaptive mode functionality has been reprogrammed and is now much better at changing the performance of the game to balance performance and detail.
 * Bug-Fix: The home screen had numerous issues with the bottom of the screen, this has now been fixed and the messages function is cleaned up. Also, on the home screen, the name has changed from "Tom Jebbo" to PycraftDev as that is the username that we use for my Pycraft related accounts - avoiding confusion.
 * Identified-Bugs: There is an issue with changing to full-screen in game, when pressing any keys or interacting with the window will make an 'error sound' although no error is raised and the project runs fine.
-* Identified-Bugs: There is an issue with moving backwards and left using the controller or keyboard, this will be fixed before the full release of Pycraft v0.9.5.
+* Identified-Bugs: There is an issue with moving backwards and left using the controller or keyboard, this will be fixed before the full release of Pycraft v9.5.0.
 
 * Feature: The game engine now has had a sky change, instead of using 6 unique textures in a cube style, we now use one texture and a sphere to reduce the complexity and number of files Pycraft uses.
 * Feature: The game engine has now got a skysphere (that is a spherical skybox) that changes with time. We have an 8-minute day, with a 2-minute sunset, then an 8-minute night with a 2-minute sunrise, this means 1 hour is 50 seconds long in real time.
@@ -220,7 +222,7 @@ Pycraft v0.9.5 is now live! Here is a list of all the added features to this maj
 * Feature: The probabilities of different weather events ( as well as their duration) has been tweaked in Pycraft.
 * Feature: Added a rain sound effect that plays when the weather tag is not 'sunny'.
 * Feature: Adjusted how audio (sound and music) is handed in Pycraft slightly.
-* Performance: We have made many more performance improvements to Pycraft since Pycraft v0.9.5-4, including the introduction of mip-maps for textures in OpenGL
+* Performance: We have made many more performance improvements to Pycraft since Pycraft v9.4.4, including the introduction of mip-maps for textures in OpenGL
 * Feature: There have been tweaks to the shadow mapping function so now there is a greater variation between day and night and different weather events.
 * Feature: All of the commonly used functions in Pycraft's 2D engine have been added to one function in DisplayUtils.py to improve upgradability and to simplify other areas of the project.
 * Identified-Bugs: After toggling between full-screen in the 2D engine of Pycraft (which uses Pygame) the window cannot be resized on some systems, even with the correct flags.
@@ -232,7 +234,7 @@ Pycraft v0.9.5 is now live! Here is a list of all the added features to this maj
 * Feature: Introducing rain particles to Pycraft, they are randomly coloured and are the final distinctive feature of the weather implementation in Pycraft!
 * Feature: Introducing the concept of multi-texture terrain into Pycraft, for now there is a grass and rock texture with more complex use cases for this coming soon.
 * Feature: We now blend (linearly interpolate) between the different weather events in Pycraft, including the colour and height of the clouds and transparency of the skysphere based on different weather events.
-* Feature: We have improved the installer for Pycraft and work on adding Linux compatibility is continuing. We have updated the installer to be compatible with Pycraft v0.9.5
+* Feature: We have improved the installer for Pycraft and work on adding Linux compatibility is continuing. We have updated the installer to be compatible with Pycraft v9.5.0
 
 Again, feedback would be much appreciated this update was released on; 19/07/2022 (UK date; DD/MM/YYYY). As always, we hope you enjoy this new release and feel free to leave feedback.
 
@@ -274,11 +276,15 @@ _A detailed map of inputs for keyboard and mouse or controller combinations is c
 New releases will be introduced regularly, it is likely that there will be some form of error or bug, therefore unless you intend to use this project for development and feedback purposes (Thank you all!) we recommend you use the latest stable release; below is how to identify the stable releases.
 
 ## Version Naming
-In short, the new version naming system more closely follows the Semantic Naming system:
-For example; Pycraft v0.9.2.1 The first number is relevant to if the project is in a finished state. The second number relates to the number of updates Pycraft has had. The third number relates to smaller sub-updates (that likely will not feature a (.exe) release). The last number there is rarely used, this is typically for PyPi releases only, as we can't edit uploaded version of the project, we use this number if there is an important change to the project description, those updates will not include any code changing!
+Pycraft's versions will always now follow the structure; "vA.B.C"
+* Where "A" is the major revision number.
+* Where "B" is the minor revsision number.
+* Where "C" is the patch and developer preview numbers (combined).
+
+Every version of Pycraft as of the 27/10/2022 (DD/MM/YYYY) must feature all 3 values. Updates also now go sequentially, so Pycraft v9.6.4 is newer than Pycraft v9.5.7. If either of the "A" or "B" version numbers is incremented in a release, documentation MUST be suitably updated, in addition Pycraft MUST be released on PyPi, SourceForge and as a release on GitHub.
 
 ## Releases
-All past versions of Pycraft are available under the releases section of Pycraft, this is a new change, but just as before, major releases like Pycraft v0.9 and Pycraft v0.8 will have (.exe) releases, but smaller sub-releases will not, this is in light of a change coming to Pycraft, this should help with the confusion behind releases, and be more accommodating to the installer that's being worked on as a part of Pycraft v0.9.4. This brings me on to another point, all past updates to Pycraft will be located at the releases page (Thats all versions), and the previous section on the home-page with branches will change. The default branch will be the most recent release, then there will be branches for all the sub-releases to Pycraft there too; and the sister program; Pycraft-Insider-Preview will be deprecated and all data moved to relevant places in this repository, this should hopefully cut down on the confusion and make the project more user-friendly.
+All past versions of Pycraft are available under the releases section of Pycraft, this is a new change, but just as before, major releases like Pycraft v0.9 and Pycraft v0.8 will have (.exe) releases, but smaller sub-releases will not, this is in light of a change coming to Pycraft, this should help with the confusion behind releases, and be more accommodating to the installer that's being worked on as a part of Pycraft v9.4.0. This brings me on to another point, all past updates to Pycraft will be located at the releases page (Thats all versions), and the previous section on the home-page with branches will change. The default branch will be the most recent release, then there will be branches for all the sub-releases to Pycraft there too; and the sister program; Pycraft-Insider-Preview will be deprecated and all data moved to relevant places in this repository, this should hopefully cut down on the confusion and make the project more user-friendly.
 
 ## Other Sources
 We now post a roughly monthly article about Pycraft, showing behind the scenes, tips and tricks and additional information, this is shared to both Medium (medium.com/@PycraftDev) and Dev (dev.to/PycraftDev) and builds on the regular posts we share to Twitter (twitter.com/PycraftDev) and Dev (dev.to/PycraftDev).
