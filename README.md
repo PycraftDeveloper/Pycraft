@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/PycraftDeveloper" target="_blank" rel="noreferrer"><img src="https://github.com/PycraftDeveloper/Pycraft/assets/81379254/66cf677f-b4c9-4ee3-b487-69243f01ba34" alt="my banner"></a>
+  <a href="https://github.com/PycraftDeveloper" target="_blank" rel="noreferrer"><img src="https://github.com/PycraftDeveloper/Pycraft/assets/81379254/216d1c7f-d509-427b-b2e8-7a396cab8415" alt="my banner"></a>
 </p>
 
 <h1 align="center">Pycraft is the OpenGL, open world, video game made with Python.</h1>
