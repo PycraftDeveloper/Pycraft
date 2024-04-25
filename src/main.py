@@ -6,5 +6,5 @@ except Exception as error:
     from tkinter import messagebox
 
     messagebox.showerror(
-        "Unable to start Pycraft",
-        f"A problem occurred whilst trying to start Pycraft (main.py).\nMore Details: {error}")
+        "Unable to start Pycraft Installer",
+        f"A problem occurred whilst trying to start Pycraft Installer (main.py).\nMore Details: {error}")

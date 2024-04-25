@@ -1,6 +1,7 @@
 {
     "python.analysis.extraPaths": [
-        "./pycraft/programs/utility"
+        "./pycraft/programs/utility",
+        "./src/utility"
     ],
     "cSpell.words": [
         "skysphere"
