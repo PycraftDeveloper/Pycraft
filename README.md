@@ -25,9 +25,9 @@
 > * [Version Naming](https://github.com/PycraftDeveloper/Pycraft/tree/main#version-naming)
 > * [Final Notices](https://github.com/PycraftDeveloper/Pycraft/tree/main#final-notices)
 
-> * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/dev/Planned_Storyline.md#the-planned-storyline)
-> * [Sound Preview](https://github.com/PycraftDeveloper/Pycraft/blob/dev/Sound_Preview.md#pycrafts-sound-files---preview-1)
-> * [Difficulty Comparison](https://github.com/PycraftDeveloper/Pycraft/blob/dev/Difficulty_Comparison.md)
+> * [The Planned Storyline](https://github.com/PycraftDeveloper/Pycraft/blob/main/Planned_Storyline.md#the-planned-storyline)
+> * [Sound Preview](https://github.com/PycraftDeveloper/Pycraft/blob/main/Sound_Preview.md#pycrafts-sound-files---preview-1)
+> * [Difficulty Comparison](https://github.com/PycraftDeveloper/Pycraft/blob/main/Difficulty_Comparison.md)
 
 > * [The Documentation for Pycraft (Read-The-Docs)](https://python-pycraft.readthedocs.io/en/latest/)
 > * [The Documentation for Pycraft (GitHub Wikis)](https://github.com/PycraftDeveloper/Pycraft/wiki)
