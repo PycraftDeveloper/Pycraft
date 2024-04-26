@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # Ignore
-build resources
+build_resources
 resources/images/**
 resources/objects/**
 resources/sounds/**
