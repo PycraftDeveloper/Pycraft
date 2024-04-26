@@ -127,14 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-pycraft/data files/pycraft_config.json
-pycraft/resources/game engine resources/clouds/Rnd_noise.png
+
+# Ignore
 pycraft/temporary/
-pycraft/data files/log.txt
-pycraft/data files/installer_config.json
-installer/data files/installer_config.json
-installer/data files/log.txt
-installer/resources/folder resources/tmp_pycraft.desktop
-prof.txt
 resources.zip
 /resources
+
+# Allow
+!/resources/images/icon.png
+!/resources/images/banner.png
