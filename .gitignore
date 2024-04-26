@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 # Ignore
-build resources
+build_resources
 resources
