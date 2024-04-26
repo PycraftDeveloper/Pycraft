@@ -39,12 +39,15 @@ Pycraft is a 3D open-source, open-world video game made in Python. For a long ti
 
 ## Setup
 _Note: [Python](https://www.python.org/downloads/) version 3.7 to 3.11 is required!_
+
 ### Installing the project (recommended)
 The way to install Pycraft is changing. For the best experience, we recommend this installation approach:
 
 1. Navigate to the most recent release of Pycraft in the [releases section](https://github.com/PycraftDeveloper/Pycraft/releases)
 2. Download the installer in your desired format.
 3. Run the installer and follow the installation instructions.
+
+_Note: If you run the installer from the source code, instead of through an executable format, make sure you have the following packages: `requests`, `pillow`. You can install these packages together using the command `pip install requests pillow` and on Linux make sure you also install pillow's dependencies using: `sudo apt-get install python3-pil.imagetk` and that you have the full Python standard library, which can be installed using the command: `sudo apt install python3.10-full`_
 
 ### Installing the project (manual approach)
 The way we develop Pycraft is changing with code developed here and the resources hosted through MediaFire. The new installer is built to handle this, and is recommended, however if you wanted to install Pycraft on your system manually, do the following:
