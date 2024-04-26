@@ -59,7 +59,7 @@ _Note: When installing Pycraft manually, you will likely be automatically be upd
 ## Execution
 In order to run Pycraft on your system, please follow the steps below before heaving to the "Everyone" section.
 
-### If you installed Pycraft through the installer
+#### If you installed Pycraft through the installer
 _Or created a custom virtual environment in the `Pycraft` directory yourself._
 
 1. Navigate to the directory `Pycraft` on your system.
@@ -68,14 +68,14 @@ _Or created a custom virtual environment in the `Pycraft` directory yourself._
 * On Linux; head to this location within the `Pycraft` directory: `/venv/pycraft/bin/python`
 3. Make a note of the full path to this location.
 
-### If you manually created your own virtual environment
+#### If you manually created your own virtual environment
 1. Navigate to the location you created your custom virtual environment in.
 2. From here the process is different depending on which operating system you are using:
 * On Windows; from there head to this location: `/venv/pycraft/Scripts/python.exe`
 * On Linux; from there head to this location: `/venv/pycraft/bin/python`
 3. Make a note of the full path to this location.
 
-### If you installed manually, and don't want to use a custom virtual environment
+#### If you installed manually, and don't want to use a custom virtual environment
 1. This process is much simpler, simply make a note of the command you would use to run python in the terminal.
 * On Windows, this will likely be `python`
 * On Linux, this will likely be `python3` or `python`
