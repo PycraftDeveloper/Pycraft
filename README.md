@@ -54,14 +54,39 @@ The way we develop Pycraft is changing with code developed here and the resource
 5. You should end up with two sub-directories called: `src` and `resources`.
 6. Run the command: `pip install -r requirements.txt` from the directory you just installed Pycraft to. This installs Pycraft's dependencies.
 
-_Note: When installing Pycraft manually, you will not automatically be updated to the latest version when a newer version is available._
+_Note: When installing Pycraft manually, you will likely be automatically be updated to the latest version when a newer version is available. This behaviour can be configured in the settings menu._
 
 ## Execution
-Regardless of how you installed Pycraft, automatically or manually, the same process applies to you:
-You need to locate in that installation directory to a file called `main.py`. Run this Python file through your preferred version of Python.
-*** Custom environments! **
+In order to run Pycraft on your system, please follow the steps below before heaving to the "Everyone" section.
 
-_Note: We strongly advise you make a shortcut to this location on your system_
+### If you installed Pycraft through the installer
+_Or created a custom virtual environment in the `Pycraft` directory yourself._
+
+1. Navigate to the directory `Pycraft` on your system.
+2. From here the process is different depending on which operating system you are using:
+* On Windows; head to this location within the `Pycraft` directory: `/venv/pycraft/Scripts/python.exe`
+* On Linux; head to this location within the `Pycraft` directory: `/venv/pycraft/bin/python`
+3. Make a note of the full path to this location.
+
+### If you manually created your own virtual environment
+1. Navigate to the location you created your custom virtual environment in.
+2. From here the process is different depending on which operating system you are using:
+* On Windows; from there head to this location: `/venv/pycraft/Scripts/python.exe`
+* On Linux; from there head to this location: `/venv/pycraft/bin/python`
+3. Make a note of the full path to this location.
+
+### If you installed manually, and don't want to use a custom virtual environment
+1. This process is much simpler, simply make a note of the command you would use to run python in the terminal.
+* On Windows, this will likely be `python`
+* On Linux, this will likely be `python3` or `python`
+
+### Everyone
+1. From the `Pycraft` directory, navigate to the `src` sub-directory.
+2. Open this sub-directory in a terminal or command prompt window.
+3. Type or paste (by right clicking or using the shortcut; `CONTROL + SHIFT + v`) the location of the Python executable you made a note of earlier.
+4. Then type `main.py` and hit enter.
+
+_Note: We strongly advise you make a shortcut for this command as it makes the process of running Pycraft much easier._
 
 ## Credits
 ### With thanks to; <br />
