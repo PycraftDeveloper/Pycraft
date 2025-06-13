@@ -159,6 +159,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ignore
-build_resources
-resources
+# Ignore cached 3D objects
+resources/objects/*
+!resources/objects/*.obj
+!resources/objects/*.mtl
+build_resources/*

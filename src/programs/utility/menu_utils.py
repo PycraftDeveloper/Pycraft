@@ -21,8 +21,8 @@ if __name__ != "__main__":
 
     class MenuResources(Registry):
         def __init__(self):
-            logo_path = f"{Registry.base_path}/src/resources"
-            logo_path = f"{logo_path}/general"
+            logo_path = f"{Registry.base_path}/resources"
+            logo_path = f"{logo_path}/images"
             logo_path = f"{logo_path}/pycraft_logo.png"
             self.logo_path = path_utils.Path(logo_path).path
             self.logo = image_utils.Icon().pycraft_icon(self.logo_path)

@@ -1095,3 +1095,190 @@ Traceback (most recent call last):
     ((Registry.display_size[0]-self.logo.get_width())/2, (Registry.display_size[1]-self.logo.get_height())/2))
 AttributeError: 'Home' object has no attribute 'logo'
 ################
+################
+In Pycraft. Error: None @ 2025-6-13 19:58:55.669068
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 56, in __init__
+    Registry.fonts = text_utils.TextRenderer()
+AttributeError: module 'text_utils' has no attribute 'TextRenderer'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 19:59:33.694808
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 58, in __init__
+    Registry.displays = display_utils.Display(fullscreen=Registry.fullscreen)
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\display_utils.py", line 65, in __init__
+    image = Image.open(image_path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3277, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\resources\\general\\icon.png'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:2:48.223402
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 58, in __init__
+    Registry.displays = display_utils.Display(fullscreen=Registry.fullscreen)
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\display_utils.py", line 65, in __init__
+    image = Image.open(image_path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3277, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\resources\\general\\icon.png'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:3:25.469847
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 69, in __init__
+    Registry.menu_resources = menu_utils.MenuResources()
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\menu_utils.py", line 28, in __init__
+    self.logo = image_utils.Icon().pycraft_icon(self.logo_path)
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\image_utils.py", line 80, in pycraft_icon
+    image = Image.open(path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3277, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\resources\\general\\pycraft_logo.png'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:4:19.291372
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 69, in __init__
+    Registry.menu_resources = menu_utils.MenuResources()
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\menu_utils.py", line 28, in __init__
+    self.logo = image_utils.Icon().pycraft_icon(self.logo_path)
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\image_utils.py", line 80, in pycraft_icon
+    image = Image.open(path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3277, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\resources\\images\\pycraft_logo.png'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:4:32.370088
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 70, in __init__
+    Registry.loading_menu = loading_menu.LoadingMenu()
+  File "W:\Documents\GitHub\Pycraft\src\programs\loading_menu.py", line 27, in __init__
+    with open(
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\data files\\splash_text.txt'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:5:3.672708
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 70, in __init__
+    Registry.loading_menu = loading_menu.LoadingMenu()
+  File "W:\Documents\GitHub\Pycraft\src\programs\loading_menu.py", line 36, in __init__
+    self.splash_text_size = Registry.fonts.get_text_size(self.splash, 30)
+AttributeError: 'NoneType' object has no attribute 'get_text_size'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:5:45.606316
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 72, in __init__
+    Registry.hud = hud_utils.HUD()
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\hud_utils.py", line 25, in __init__
+    self.texture_program = self.load_program(texture_shader_path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\context\base\window.py", line 1358, in load_program
+    return resources.programs.load(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\programs.py", line 33, in load
+    return super().load(meta)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\base.py", line 52, in load
+    return meta.loader_cls(meta).load()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\program\single.py", line 56, in load
+    self.meta.resolved_path, source = self._load_source(self.meta.path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\program\single.py", line 84, in _load_source
+    with open(str(resolved_path), "r") as fd:
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\shaders\\texture.glsl'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:6:9.540403
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 72, in __init__
+    Registry.hud = hud_utils.HUD()
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\hud_utils.py", line 25, in __init__
+    self.texture_program = self.load_program(texture_shader_path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\context\base\window.py", line 1358, in load_program
+    return resources.programs.load(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\programs.py", line 33, in load
+    return super().load(meta)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\base.py", line 52, in load
+    return meta.loader_cls(meta).load()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\program\single.py", line 56, in load
+    self.meta.resolved_path, source = self._load_source(self.meta.path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\program\single.py", line 84, in _load_source
+    with open(str(resolved_path), "r") as fd:
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\shaders\\texture.glsl'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:6:55.700350
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\game_engine.py", line 88, in __init__
+    scene: moderngl_window.scene.Scene = moderngl_window.WindowConfig.load_scene(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\context\base\window.py", line 1468, in load_scene
+    return resources.scenes.load(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\scenes.py", line 22, in load
+    return super().load(meta)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\base.py", line 52, in load
+    return meta.loader_cls(meta).load()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\scene\wavefront.py", line 104, in load
+    data = pywavefront.Wavefront(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\pywavefront\wavefront.py", line 72, in __init__
+    self.parser = self.parser_cls(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\pywavefront\obj.py", line 80, in __init__
+    self.parse()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\pywavefront\obj.py", line 90, in parse
+    super(ObjParser, self).parse()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\pywavefront\parser.py", line 123, in parse
+    self.next_line()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\pywavefront\parser.py", line 99, in next_line
+    self.line = next(self.lines)  # Will raise StopIteration when there are no more lines
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\pywavefront\parser.py", line 90, in create_line_generator
+    file = open(str(self.file_name), mode='r', encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\resources\\game engine\\map\\map.obj'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:7:58.874745
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\game_engine.py", line 108, in __init__
+    self.ocean_prog) = shader_utils.load_programs().load_program_files()
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\shader_utils.py", line 20, in load_program_files
+    depth_prog = moderngl_window.WindowConfig.load_program(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\context\base\window.py", line 1358, in load_program
+    return resources.programs.load(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\programs.py", line 33, in load
+    return super().load(meta)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\base.py", line 52, in load
+    return meta.loader_cls(meta).load()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\program\single.py", line 56, in load
+    self.meta.resolved_path, source = self._load_source(self.meta.path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\program\single.py", line 84, in _load_source
+    with open(str(resolved_path), "r") as fd:
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\shaders\\raw_depth.glsl'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:8:25.424412
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\game_engine.py", line 140, in __init__
+    tex1 = moderngl_window.WindowConfig.load_texture_2d(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\context\base\window.py", line 1203, in load_texture_2d
+    return resources.textures.load(
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\textures.py", line 27, in load
+    return super().load(meta)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\resources\base.py", line 52, in load
+    return meta.loader_cls(meta).load()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\texture\t2d.py", line 17, in load
+    self._open_image()
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\moderngl_window\loaders\texture\pillow.py", line 38, in _open_image
+    self.image = Image.open(self.meta.resolved_path)
+  File "c:\Users\pamj0\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 3277, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'W:\\Documents\\GitHub\\Pycraft\\src\\resources\\game engine\\map\\GrassTexture.png'
+################
+################
+In Pycraft. Error: None @ 2025-6-13 20:8:57.868602
+Traceback (most recent call last):
+  File "W:\Documents\GitHub\Pycraft\src\programs\pycraft_main.py", line 78, in __init__
+    Registry.main_menu = main_menu.Home()
+  File "W:\Documents\GitHub\Pycraft\src\programs\main_menu.py", line 21, in __init__
+    sound_utils.play_sound.play_inventory_sound()
+  File "W:\Documents\GitHub\Pycraft\src\programs\utility\sound_utils.py", line 22, in play_inventory_sound
+    pygame.mixer.music.load(audio_path)
+pygame.error: No such file or directory: 'W:\Documents\GitHub\Pycraft\src\resources\general\473545__erokia__ambient-wave-compilation-by-erokia.ogg'.
+################

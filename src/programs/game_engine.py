@@ -81,7 +81,7 @@ if __name__ != "__main__":
                     str,
                     moderngl.VertexArray] = {}
 
-                map_object_path = f"{Registry.base_path}/src/resources/game engine/map/map.obj"
+                map_object_path = f"{Registry.base_path}/resources/objects/map.obj"
                 map_object_path = path_utils.Path(map_object_path).path
 
                 # Use 'u' to do things with UVs that this really needs
@@ -90,7 +90,7 @@ if __name__ != "__main__":
                     path=map_object_path,
                     cache=True)
 
-                sky_sphere_object_path = f"{Registry.base_path}/src/resources/game engine/sky_sphere/ClearSkyTransition.gif"
+                sky_sphere_object_path = f"{Registry.base_path}/resources/images/ClearSkyTransition.gif"
                 sky_sphere_object_path = path_utils.Path(sky_sphere_object_path).path
 
                 self.skysphere_texture = moderngl_window.WindowConfig.load_texture_array(
@@ -132,9 +132,9 @@ if __name__ != "__main__":
 
                 self.color.value = (1.0, 1.0, 1.0)
 
-                grass_texture_path = f"{Registry.base_path}/src/resources/game engine/map/GrassTexture.png"
+                grass_texture_path = f"{Registry.base_path}/resources/images/GrassTexture.png"
                 grass_texture_path = path_utils.Path(grass_texture_path).path
-                rock_texture_path = f"{Registry.base_path}/src/resources/game engine/map/RockTexture.png"
+                rock_texture_path = f"{Registry.base_path}/resources/images/RockTexture.png"
                 rock_texture_path = path_utils.Path(rock_texture_path).path
 
                 tex1 = moderngl_window.WindowConfig.load_texture_2d(

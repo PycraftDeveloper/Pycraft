@@ -21,7 +21,7 @@ if __name__ != "__main__":
 
     class LoadingMenu(Registry):
         def __init__(self):
-            self.splash_text_path = f"{Registry.base_path}/src/data files/splash_text.txt"
+            self.splash_text_path = f"{Registry.base_path}/data files/splash_text.txt"
             self.splash_text_path = path_utils.Path(self.splash_text_path).path
 
             with open(
@@ -33,7 +33,7 @@ if __name__ != "__main__":
 
             self.splash = self.splash_text[random.randint(0, len(self.splash_text)-1)].strip()
 
-            self.splash_text_size = Registry.fonts.get_text_size(self.splash, 30)
+            #self.splash_text_size = Registry.fonts.get_text_size(self.splash, 30)
 
             image_path = path_utils.Path(
                 f"{Registry.base_path}/temporary/last_scene.png").path
@@ -62,7 +62,7 @@ if __name__ != "__main__":
 
             content_y_position += Registry.menu_resources.logo.get_height()
 
-            content_y_position += self.splash_text_size[1]
+            """content_y_position += self.splash_text_size[1]
 
             Registry.fonts.render_text(
                 self.splash,
@@ -70,7 +70,7 @@ if __name__ != "__main__":
                 fg_color=Registry.themes.font_color,
                 position=[text_utils.CENTERED, content_y_position],
                 wrap=False,
-                surface=Registry.hud.canvas)
+                surface=Registry.hud.canvas)"""
 
 else:
     MESSAGE = "You need to run this as part of Pycraft, please run the 'main.py' file"

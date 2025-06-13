@@ -14,7 +14,7 @@ if __name__ != "__main__":
 
     class load_programs(Registry):
         def load_program_files(self):
-            shader_path = f"{Registry.base_path}/src/shaders"
+            shader_path = f"{Registry.base_path}/shaders"
 
             depth_prog_path = path_utils.Path(f"{shader_path}/raw_depth.glsl").path
             depth_prog = moderngl_window.WindowConfig.load_program(

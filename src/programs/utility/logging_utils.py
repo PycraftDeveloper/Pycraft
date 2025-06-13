@@ -1,7 +1,6 @@
 if __name__ != "__main__":
     try:
         import traceback
-        from typeguard import Optional
 
         from registry_utils import Registry
 
@@ -43,8 +42,8 @@ if __name__ != "__main__":
 
         def log_information(
                 self,
-                string: Optional[str] = None,
-                error: Optional[Exception] = None) -> None:
+                string = None,
+                error = None) -> None:
             try:
                 timestamp = datetime_utils.generate_timestamp()
                 content = f"In Pycraft. Information: {string} @ {timestamp}"
@@ -64,8 +63,8 @@ if __name__ != "__main__":
 
         def log_warning(
                 self,
-                string: Optional[str] = None,
-                error: Optional[Exception] = None) -> None:
+                string = None,
+                error = None) -> None:
             try:
                 timestamp = datetime_utils.generate_timestamp()
                 content = "\n"
@@ -88,8 +87,8 @@ if __name__ != "__main__":
 
         def log_error(
                 self,
-                string: Optional[str] = None,
-                error: Optional[Exception] = None) -> None:
+                string = None,
+                error = None) -> None:
             try:
                 timestamp = datetime_utils.generate_timestamp()
                 content = "\n"

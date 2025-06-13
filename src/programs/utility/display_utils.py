@@ -59,7 +59,7 @@ if __name__ != "__main__":
 
             os.environ['SDL_VIDEO_CENTERED'] = '1'
 
-            image_path = f"{Registry.base_path}/src/resources/general/icon.png"
+            image_path = f"{Registry.base_path}/resources/images/icon.png"
             image_path = path_utils.Path(image_path).path
 
             image = Image.open(image_path)

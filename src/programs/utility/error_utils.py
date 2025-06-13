@@ -2,7 +2,6 @@ if __name__ != "__main__":
     try:
         import sys
         import traceback
-        from typeguard import Optional
         from tkinter import messagebox, Tk
 
         from registry_utils import Registry
@@ -19,8 +18,8 @@ if __name__ != "__main__":
     class Error(Registry):
         def __init__(
                 self,
-                string: Optional[str] = None,
-                error: Optional[Exception] = None,
+                string = None,
+                error = None,
                 log:bool = True) -> None:
 
             if log:

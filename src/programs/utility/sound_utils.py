@@ -16,7 +16,7 @@ if __name__ != "__main__":
 
     class play_sound(Registry):
         def play_inventory_sound():
-            audio_path = f"{Registry.base_path}/src/resources/general/473545__erokia__ambient-wave-compilation-by-erokia.ogg"
+            audio_path = f"{Registry.base_path}/resources/music/473545__erokia__ambient-wave-compilation-by-erokia.ogg"
             audio_path = path_utils.Path(audio_path).path
 
             pygame.mixer.music.load(audio_path)
@@ -26,7 +26,7 @@ if __name__ != "__main__":
 
         def play_click_sound():
             channel0 = pygame.mixer.Channel(0)
-            audio_path = f"{Registry.base_path}/src/resources/general/Click.ogg"
+            audio_path = f"{Registry.base_path}/resources/sounds/Click.ogg"
             audio_path = path_utils.Path(audio_path).path
 
             clickMUSIC = pygame.mixer.Sound(audio_path)
@@ -39,7 +39,7 @@ if __name__ != "__main__":
             channel1 = pygame.mixer.Channel(1)
             RandomNum = random.randint(0, 5)
 
-            audio_path = f"{Registry.base_path}/src/resources/game engine/GameSounds/footstep/footsteps{RandomNum}.wav"
+            audio_path = f"{Registry.base_path}/resources/sounds/footsteps{RandomNum}.wav"
             audio_path = path_utils.Path(audio_path).path
 
             Footsteps = pygame.mixer.Sound(audio_path)
@@ -49,7 +49,7 @@ if __name__ != "__main__":
 
         def play_ambient_sound():
             channel2 = pygame.mixer.Channel(2)
-            audio_path = f"{Registry.base_path}/src/resources/game engine/GameSounds/FieldAmb.ogg"
+            audio_path = f"{Registry.base_path}/resources/sounds/FieldAmb.ogg"
             audio_path = path_utils.Path(audio_path).path
 
             LoadAmb = pygame.mixer.Sound(audio_path)
@@ -61,7 +61,7 @@ if __name__ != "__main__":
             channel3 = pygame.mixer.Channel(3)
             RandomNum = random.randint(0, 10)
 
-            audio_path = f"{Registry.base_path}/src/resources/game engine/GameSounds/thunder/thunder{RandomNum}.ogg"
+            audio_path = f"{Registry.base_path}/resources/sounds/thunder{RandomNum}.ogg"
             audio_path = path_utils.Path(audio_path).path
 
             Thunder = pygame.mixer.Sound(audio_path)
@@ -71,7 +71,7 @@ if __name__ != "__main__":
 
         def play_rain_sound():
             channel4 = pygame.mixer.Channel(4)
-            audio_path = f"{Registry.base_path}/src/resources/game engine/GameSounds/rain.ogg"
+            audio_path = f"{Registry.base_path}/resources/sounds/rain.ogg"
             audio_path = path_utils.Path(audio_path).path
 
             Rain = pygame.mixer.Sound(audio_path)

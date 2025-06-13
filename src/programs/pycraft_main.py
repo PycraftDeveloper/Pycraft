@@ -53,7 +53,7 @@ if __name__ != "__main__":
 
                 Registry.themes = theme_utils.Theme()
 
-                Registry.fonts = text_utils.TextRenderer()
+                #Registry.fonts = text_utils.TextRenderer()
                 Registry.events = event_utils.EventsManager()
                 Registry.displays = display_utils.Display(fullscreen=Registry.fullscreen)
                 Registry.displays.set_caption("Initializing")

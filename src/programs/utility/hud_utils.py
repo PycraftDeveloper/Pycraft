@@ -20,7 +20,7 @@ if __name__ != "__main__":
         def __init__(self):
             self.pg_texture = Registry.ctx.texture(Registry.display_size, 4)
 
-            texture_shader_path = f"{Registry.base_path}/src/shaders/texture.glsl"
+            texture_shader_path = f"{Registry.base_path}/shaders/hud_texture_blur.glsl"
             texture_shader_path = path_utils.Path(texture_shader_path).path
             self.texture_program = self.load_program(texture_shader_path)
             self.quad_fs = geometry.quad_fs()
